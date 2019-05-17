@@ -3,43 +3,58 @@
 
    <head>
    			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    		<script src="index.js"> </script> 
     		<link rel="stylesheet"    type="text/css"    href="main.css" />
      		<meta name="viewport" content="width=device-width; initial-scale=1.0">
-     		<title> About My Page  </title>   
+     		<h1> CSE 405 Research  </h1>   
 	</head>
-	    <!-- nav bar -->
+	<body>	
+
 	<header class = "container" > 
 		<div class = "row" >
 			  <nav> 
-                  <a class="col-sm-1"  href="https://tega25.github.io/StaplesCenter.github.io/" id = "PlayersButton"> Staples Center </a> 
-                  <a class="col-sm-1" href="https://tega25.github.io/Record.github.io/" id = "StatsButton"> Record </a>
-                  <a class="col-sm-1" href= "https://tega25.github.io/LakersRoster.github.io/" id = "AboutButton"> Roster </a>
-              	  <img id = "logo" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/1000px-Los_Angeles_Lakers_logo.svg.png" 
-                            width="50" length="50"    />
-                        
-              </nav>
+                  <a class="col-sm-1"  href="https://github.com/tega25/CSE_405.github.io" <a> Github </a> 
+                                  
+              		  </nav>
 			
 		</div>
-	
+	   
 	</header>
 	
-	<body>	
-	    <section class "jumbotron">
-			<div class = "col-sm-10" >	       
-	            <h4> Lakers Information</h4>
-	            <div class = "col-sm-6" >
-	            <p class = "description"> This website displays information about the Los Angeles Lakers 2017 Roster. I used the ESPN API to fetch data in order to display up to date info on the Lakers. 
-	            		Click on Roster to view the Lakers roster. Click on Record to view the current Lakers record. Click on Staples Center to learn about the arena.</p>
-	        </div>
-	        </div>
-	        </section>
-	</body>
+	<section class = "jumbotron"> 
+        <img src="https://4.bp.blogspot.com/-wRySNW_vEpE/WDygxFJtLMI/AAAAAAAAA8E/tKRJr0cs8vEmARv1s5bedFqQtT3z07yUgCK4B/s400/infographic.png" 
+width = "850" length = "850"></img> 
+        
+	</section>
 	
-	
+	<section class ="About Snort">
+        <section class = "container">
+        <div class = "col-sm-6">
+            <h3> About Snort</h3>
+                <p class = "col-sm-12" >
+                	Snort is an open source network indtrusion detection system. It is a packet sniffer that monitors network traffic in real time, it scans each packet that is being transmitted to determine if the packet is safe. If the packet is viewed as unsafe, Snort could send alerts to email or to another server to notify that their is a mailicious packet in the system. If the packet is safe, Snort could still be configured to notify if the packet validates a set rules that Snort has to offer. Snort is able to detect DOS, buffer overflow, stealth port scan attacks. </p>
+        </div> 
+        
+        <div class = "col-sm-6">
+            <h3> Research</h3>
+                <p class = "col-sm-12" >
+                	I installed Snort on a VM. The VM was connected to a network that I made with other various VMs. I did basic a configuration of Snort, in which I installed the necessary packages before installing Snort. After installing Snort I configured a basic set up of Snort. I had monitor traffic that was being transmitted on my web server. I used the rules that were in the .rules file that was an example. I was able to get snort to alert me when I started to ping my VM that I setup Snort to monitor. I learned that Snort is an extremely in depth IDS and when setup correctly it can save you from various attacks.  </p>
+        </div> 
+
+        <div class = "col-sm-6">
+            <h3> Implementations</h3>
+                <p class = "col-sm-12" >
+                </p>
+        </div> 
+        
+
+        
+        </section>
+        </section>
+        
+    </section>
+    
+                    
+                    
 
 
-
-
-
-</html>
+</body>
