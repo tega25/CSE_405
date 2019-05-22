@@ -21,7 +21,7 @@
 	</header>
 	
 	<section class = "jumbotron"> 
-        <img src="https://4.bp.blogspot.com/-wRySNW_vEpE/WDygxFJtLMI/AAAAAAAAA8E/tKRJr0cs8vEmARv1s5bedFqQtT3z07yUgCK4B/s400/infographic.png" 
+        <img src="https://dinfratechsource.files.wordpress.com/2018/11/f548b-nagios-core-featured.png?w=286&h=83" 
 width = "850" length = "850"></img> 
         
 	</section>
@@ -29,15 +29,17 @@ width = "850" length = "850"></img>
 	<section class ="About Snort">
         <section class = "container">
         <div class = "col-sm-6">
-            <h3> About Snort</h3>
+            <h3> Nagios </h3>
                 <p class = "col-sm-12" >
-                	Snort is an open source network indtrusion detection system. It is a packet sniffer that monitors network traffic in real time, it scans each packet that is being transmitted to determine if the packet is safe. If the packet is viewed as unsafe, Snort could send alerts to email or to another server to notify that their is a mailicious packet in the system. If the packet is safe, Snort could still be configured to notify if the packet validates a set rules that Snort has to offer. Snort is able to detect DOS, buffer overflow, stealth port scan attacks. </p>
+Nagios is an open source monitoring system for computers as individual nodes or to monitor a network as a whole. It can monitor systems running Linux, Windows, and Unix operating systems. Nagios software runs periodc checks on server and node resources. Memory usage, disk usage, number of processes running, log files etc. are some of the resources that it can monitor. Nagios can also monitor services that running throughout the network or on a individual node. Nagios has command line interface as well as a graphical user interface. Nagios can send out alerts in real time if resource usage reaches a critical state determined by the administrator or if services begin failing. These alerts can be send via email or text or to another server. 
+		</p>
         </div> 
         
         <div class = "col-sm-6">
             <h3> Research</h3>
                 <p class = "col-sm-12" >
-                	I installed Snort on a VM. The VM was connected to a network that I made with other various VMs. I did basic a configuration of Snort, in which I installed the necessary packages before installing Snort. After installing Snort I configured a basic set up of Snort. I had monitor traffic that was being transmitted on my web server. I used the rules that were in the .rules file that was an example. I was able to get snort to alert me when I started to ping my VM that I setup Snort to monitor. I learned that Snort is an extremely in depth IDS and when setup correctly it can save you from various attacks.  </p>
+I installed nagios on a VM. I found it was bit tricky because it was not just one installation file. I had to first install the necessary dependencies. After installing Nagios I tried to start to the nagios service. I repeatedly ran into an error. I researched the issue and learned that I had to create a new user and group to run the Nagios processes. Allowing Nagios processes to be ran as the current user is an option. After that I had to do the rest of the configuration in the nagios conf files. Then I had to install the Nagios Remote Plugin Executor on the host that I wanted to monitor. I learned how that with nagios I can monitor vital resources that are limited in a real workplace setting. Nagios could help with maximizing resources, extending lifespan of resources and ensuring that your services are continousally available. 
+		  </p>
         </div> 
 
         
